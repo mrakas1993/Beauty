@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header-top{
+    background: #EFEFEF;
+}
+.top-menu{
+    display: flex;
+}
+.top-menu>li{
+    margin-right: 30px;
+}
+.top-menu>li:last-child{
+    margin-right: 0;
+}
+.top-menu>li>a{
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
