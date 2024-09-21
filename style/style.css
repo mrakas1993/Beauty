@@ -15,12 +15,21 @@ ul,ol{
 a{
     text-decoration: none;
 }
+button{
+    background: #fff;
+    border:none;
+    cursor: pointer;
+}
 .container{
     max-width: 1110px;
     margin: 0 auto;
 }
 .header-top{
     background: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 .top-menu{
     display: flex;
@@ -35,4 +44,81 @@ a{
     font-weight: 400;
     font-size: 14px;
     color: #333;
+}
+.tel{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.recall{
+    border: 2px solid #66c05d;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    margin-left: 40px;
+}
+.medium{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-medium{
+    border-bottom: 1px solid #efefef;
+}
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bottom-menu{
+    display: flex;
+}
+.bottom-menu>li{
+    margin-right: 40px;
+}
+.bottom-menu>li:last-child{
+    margin-right: 0;
+}
+.bottom-menu>li>a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.banner{
+    background: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
+h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.banner-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    max-width: 308px;
+    margin-bottom: 50px;
+}
+.banner-btn{
+    border: 2px solid #fff;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    background: #66c05d;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #fff;
 }
